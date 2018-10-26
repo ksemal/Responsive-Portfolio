@@ -3,3 +3,18 @@
     float: left;
     padding: 0px 20px;
 }
+@media screen and (max-width: 980px) {
+    #pic {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #pic {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 640px) {
+    #pic {
+        width: 100%;
+    }
+}
