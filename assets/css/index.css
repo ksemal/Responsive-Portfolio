@@ -2,6 +2,11 @@
     width: 25%;
     float: left;
     padding: 0px 20px;
+    animation-name: animation;
+    animation-duration: 3s;
+}
+p {
+    animation: type 5s ; 
 }
 @media screen and (max-width: 980px) {
     #pic {
@@ -18,3 +23,21 @@
         width: 100%;
     }
 }
+
+@keyframes animation {
+    0% {border-radius: 500%;
+        opacity: 0;
+        }
+    50% {border-radius: 100%; 
+       }
+    100% {
+        opacity: 1;
+    }     
+}
+@keyframes type{ 
+    from { opacity: 0;
+        } 
+    to { opacity: 1;
+        }
+  } 
+
