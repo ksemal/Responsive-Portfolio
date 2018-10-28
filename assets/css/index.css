@@ -6,7 +6,7 @@
     animation-duration: 3s;
 }
 p {
-    animation: type 3s ease-in-out ; 
+    animation: type 4s ease-in-out ; 
 }
 @media screen and (max-width: 980px) {
     #pic {
