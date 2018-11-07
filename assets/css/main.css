@@ -8,7 +8,7 @@
     border-color: #dddddd;
     border-width: 2px;
     margin: 0 auto;
-    height: auto;
+    height: 100%;
     padding-bottom: 10px;
     
 }
@@ -76,7 +76,7 @@ nav {
     clear: both;
     display: block;
 }
-a {
+.nav-link {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777; 
     text-decoration-line: none;
